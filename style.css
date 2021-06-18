@@ -33,7 +33,7 @@ body{
     margin-top: 50px;
     text-decoration: none;
 }
-a:hover.blog{
+:hover.blog,.itenslink{
     color: red;
     background-color: white;
     border-style: solid;
