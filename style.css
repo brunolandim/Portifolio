@@ -1,3 +1,4 @@
+
 body{
     background-color: lightslategray;
     font-family: cursive;
@@ -6,53 +7,54 @@ body{
     border-radius: 50%;
     width: 300px;
 }
-.name-description {
-    color: floralwhite;
-    font-family: fantasy,sans-serif;
-}
+
 .iten01{
-    font-size: large;
+    font-size: 50px;
 }
 .iten02{
-    font-size: medium;
+    font-size: 40px;
 }
 .iten03{
-    font-size: small;
+    font-size: 30px;
 }
 .iten04{
-    font-size: smaller;
+    font-size: 20px;
 }
 .blog{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    color: white;
-    background-color: red;
-    padding: 10px 15px;
+    font-weight: 250;
+    color: black;
+    background-color:rgb(160, 237, 240);
+    padding: 5px 5px;
     border-radius: 10% ;
     line-height: 10px;
     margin-top: 50px;
     text-decoration: none;
 }
 :hover.blog,.itenslink{
-    color: red;
-    background-color: white;
+    color: rgb(160, 237, 240);
+    background-color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: red;
+    border-color: rgb(160, 237, 240);
 }
 .itenslink{
     text-decoration: none;
-    color:white;
-    background-color: red;
-    padding: 10px 10px;
-    border-radius: 10px;
+    color:black;
+    background-color: rgb(160, 237, 240);
+    padding: 5px 5px;
+    border-radius: 5px;
     margin-left: 10px;
     
 }
 a:hover.itenslink{
-    color: red;
-    background-color: white;
+    color: rgb(160, 237, 240);
+    background-color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: red;
+    border-color: rgb(160, 237, 240);
+}
+.itens-topo{
+ 
+    color:black;    
 }
